@@ -88,9 +88,7 @@ npm run dev
 ```
 
 ## 🔐 Environment Variables
-env
-Copy
-Edit
+```env
 MONGODB_URI=<your_mongodb_uri>
 ```
 
