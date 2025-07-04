@@ -69,7 +69,7 @@ CategoryBreakdownChart.tsx: Pie chart for category-wise distribution
 BudgetComparisonChart.tsx: Grouped bar chart for budget vs actual
 
 ## ⚙️ Setup Instructions
-bash
+```bash
 Copy
 Edit
 # Clone the repository
@@ -85,12 +85,14 @@ MONGODB_URI=your_mongodb_connection_string
 # Run the development server
 npm run dev
 App runs at http://localhost:3000
+```
 
 ## 🔐 Environment Variables
-env
+```env
 Copy
 Edit
 MONGODB_URI=<your_mongodb_uri>
+```
 
 ## 📅 Future Improvements
 🧠 AI-generated saving insights (OpenAI / local model)
