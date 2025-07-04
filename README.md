@@ -52,3 +52,55 @@ A modern, responsive web app to track personal expenses, visualize category-wise
 ├── models/               # Mongoose models for MongoDB
 ├── public/               # Static assets
 └── styles/               # Global styles (Tailwind config)
+```
+
+## 🧪 Validations & Error Handling
+Form validations using React Hook Form + Zod
+
+User-friendly error states (empty fields, invalid amounts)
+
+Backend validation for data integrity
+
+## 📈 Charts
+MonthlyExpensesChart.tsx: Bar chart grouped by month
+
+CategoryBreakdownChart.tsx: Pie chart for category-wise distribution
+
+BudgetComparisonChart.tsx: Grouped bar chart for budget vs actual
+
+## ⚙️ Setup Instructions
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/your-username/personal-finance-visualizer.git
+cd personal-finance-visualizer
+
+# Install dependencies
+npm install
+
+# Add .env file
+MONGODB_URI=your_mongodb_connection_string
+
+# Run the development server
+npm run dev
+App runs at http://localhost:3000
+
+## 🔐 Environment Variables
+env
+Copy
+Edit
+MONGODB_URI=<your_mongodb_uri>
+
+## 📅 Future Improvements
+🧠 AI-generated saving insights (OpenAI / local model)
+
+📱 Mobile-first gesture UI for expense tracking
+
+📊 CSV / PDF export
+
+🔒 Auth via NextAuth.js (Google login)
+
+🔔 Notification system for over-budget alerts
+
+
