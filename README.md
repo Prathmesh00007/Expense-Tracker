@@ -70,8 +70,6 @@ BudgetComparisonChart.tsx: Grouped bar chart for budget vs actual
 
 ## ⚙️ Setup Instructions
 ```bash
-Copy
-Edit
 # Clone the repository
 git clone https://github.com/your-username/personal-finance-visualizer.git
 cd personal-finance-visualizer
