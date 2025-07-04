@@ -84,11 +84,11 @@ MONGODB_URI=your_mongodb_connection_string
 
 # Run the development server
 npm run dev
-App runs at http://localhost:3000
+# App runs at http://localhost:3000
 ```
 
 ## 🔐 Environment Variables
-```env
+env
 Copy
 Edit
 MONGODB_URI=<your_mongodb_uri>
